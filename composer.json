@@ -1,0 +1,16 @@
+{
+    "name": "spoody/ftintra",
+    "description": "PHP Library to use 42 Intra's API",
+    "type": "library",
+    "require": {
+        "zendframework/zend-http": "^2.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Bounya",
+            "email": "mehdi.bounya@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
