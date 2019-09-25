@@ -14,7 +14,7 @@
 		],
 		"autoload": {
 			"psr-4": {
-				"Spoody\\": "src/"
+				"Spoody\\Intra\\": "src/"
 			}
 		},
 		"minimum-stability": "stable"
