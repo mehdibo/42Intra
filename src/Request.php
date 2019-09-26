@@ -16,7 +16,7 @@ class Request
 
     private $api_endpoint;
 
-    public function __construct(\Zend\Http\Client $client, string $api_endpoint, \Spoody\IntraToken $token)
+    public function __construct(\Zend\Http\Client $client, string $api_endpoint, Token $token)
     {
         $this->client = $client;
         $this->token = $token;
