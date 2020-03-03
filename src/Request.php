@@ -70,5 +70,14 @@ class Request
         if (!empty($data))
             $client->setParameterPost($data);
         return $this->send($client);
+	}
+	
+	public function patch(string $uri, array $data = []):string
+    {
+        $client = $this->prepare_request($uri);
+        $client->setMethod('PATCH');
+        if (!empty($data))
+            $client->setParameterPost($data);
+        return $this->send($client);
     }
 }
