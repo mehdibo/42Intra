@@ -1,5 +1,5 @@
 {
-	"name": "spoody/ftintra",
+	"name": "mehdibo/ftintra",
 		"description": "PHP Library to use 42 Intra's API",
 		"type": "library",
 		"require": {
